@@ -1,0 +1,140 @@
+body {
+  font-family: "Montserrat-Black", sans-serif;
+}
+
+#title {
+  background-color: rgb(107, 187, 83);
+  color: whitesmoke;
+}
+
+h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  line-height: 1.5;
+  size: 3rem;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Black", sans-serif;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+.title-img {
+  width: 60%;
+  margin-left: 40px;
+}
+
+#features {
+  padding: 5% 5%;
+}
+
+.feature-box {
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.iclr {
+  color: green;
+  margin-bottom: 1.5rem;
+}
+
+.iclr:hover {
+  color: black;
+}
+
+#testimonials {
+  font-family: "Montserrat-Bold", sans-serif;
+  background-color: rgb(107, 187, 83);
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.testi-img {
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+  margin: 20px 20px 20px 120px;
+}
+
+.testimoh2 {
+  color: #ffff;
+  font-family: "Montserrat-Bold", sans-serif;
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+em {
+  color: #ffff;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#press {
+  text-align: center;
+  background-color: rgb(107, 187, 83);
+}
+
+.press-img {
+  width: 10%;
+  height: 10%;
+  margin: 0px 40px 40px 0px;
+}
+
+.card-deck {
+  margin: 20px 20px;
+}
+
+.card-body {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-header {
+  background-color: rgb(107, 187, 83);
+  color: #ffff;
+  font-family: "Montserrat-Bold", sans-serif;
+}
+#footer {
+  background-color: black;
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  margin: 0;
+  height: 30px;
+}
