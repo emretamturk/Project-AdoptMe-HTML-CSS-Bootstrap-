@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AdoptMe</title>
+    <link href="images\pet.png" rel="icon" />
+    <!-- Bootstrap CDN-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css" />
+    <!--FONT ICON LOGO-->
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!--GOOGLE FONTS TEXT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lato:ital,wght@0,400;1,300&family=Lobster&family=Noto+Serif+JP:wght@600&family=Sacramento&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lato:ital,wght@0,400;1,300&family=Lobster&family=Montserrat:wght@300&family=Noto+Serif+JP:wght@600&family=Sacramento&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Lato:ital,wght@0,400;1,300&family=Lobster&family=Montserrat:wght@200;300&family=Noto+Serif+JP:wght@600&family=Sacramento&family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">AdoptMe</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse nav justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#title">Download</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Meet dogs nearby they are waiting for new family.</h1>
+            <button type="button" class="btn btn-dark btn-lg download-button">
+              <i class="fab fa-apple"></i> Download
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-light btn-lg download-button"
+            >
+              <i class="fab fa-google-play"></i> Download
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="title-img"
+              src="images/iphone6.png"
+              alt="iphone-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-4">
+            <i class="fas fa-check-circle fa-4x iclr"></i>
+            <h3>Easy to use.</h3>
+            <p>So easy to use, even your new dog could do it.</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="fas fa-bullseye fa-4x iclr"></i>
+            <h3>Elite Clientele</h3>
+            <p>We have all the dogs, the greatest dogs.</p>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="fas fa-heart fa-4x iclr"></i>
+            <h3>Guaranteed to work.</h3>
+            <p>Find a dog and adopt your life will be better:)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimoh2">
+              This was a dream for me but ı have the greatest parents in the
+              world,everything became real thanks to AdoptMe app.
+            </h2>
+            <img class="testi-img" src="images/dog-img.jpg" alt="dog-profile" />
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimoh2">
+              I adopted my dog using AdoptMe app and our home is warmer with dog
+              love now.
+            </h2>
+            <img class="testi-img" src="images\myfoto.png" alt="my-profile" />
+            <em>Istanbul,Turkey</em>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleSlidesOnly"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleSlidesOnly"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="press-img" src="images/techcrunch.png" alt="tc-logo" />
+      <img class="press-img" src="images/tnw.png" alt="tnw-logo" />
+      <img
+        class="press-img"
+        src="images/bizinsider.png"
+        alt="biz-insider-logo"
+      />
+      <img class="press-img" src="images/mashable.png" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section id="pricing">
+      <h2 style="margin: 10px 10px; text-align: center; font-weight: bold">
+        A Plan for Every Dog Lover's Needs<img
+          src="images\pet.png"
+          style="width: 60px; height: 60px; margin-left: 20px"
+        />
+      </h2>
+      <p style="margin: 10px 10px; text-align: center; margin-right: 80px">
+        Simple and affordable price plans for you.
+      </p>
+
+      <div class="card-deck">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-2">
+            <div class="card">
+              <div class="card-header">
+                <h3 style="text-align: center">Chihuahua</h3>
+              </div>
+              <div class="card-body">
+                <h2>Free</h2>
+                <p>Unlimited Search</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <div class="card-footer">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark btn-md download-button"
+                  >
+                    Sign Up
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2">
+            <div class="card">
+              <div class="card-header">
+                <h3 style="text-align: center">Labrador</h3>
+              </div>
+              <div class="card-body">
+                <h2>$49 / mo</h2>
+                <p>Unlimited Search</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <div class="card-footer">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark btn-md download-button"
+                  >
+                    Sign Up
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2">
+            <div class="card">
+              <div class="card-header">
+                <h3 style="text-align: center">Mastiff</h3>
+              </div>
+              <div class="card-body">
+                <h2>$49 / mo</h2>
+                <p>Unlimited Search</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <div class="card-footer">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark btn-md download-button"
+                  >
+                    Sign Up
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2">
+            <div class="card">
+              <div class="card-header">
+                <h3 style="text-align: center">Bulldog</h3>
+              </div>
+              <div class="card-body">
+                <h2>$59 / mo</h2>
+                <p>Unlimited Search</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <div class="card-footer">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark btn-md download-button"
+                  >
+                    Sign Up
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2">
+            <div class="card">
+              <div class="card-header">
+                <h3 style="text-align: center">King Charles</h3>
+              </div>
+              <div class="card-body">
+                <h2>$69 / mo</h2>
+                <p>Unlimited Search</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <div class="card-footer">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark btn-md download-button"
+                  >
+                    Sign Up
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2">
+            <div class="card">
+              <div class="card-header">
+                <h3 style="text-align: center">Pug</h3>
+              </div>
+              <div class="card-body">
+                <h2>$79 / mo</h2>
+                <p>Unlimited Search</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <div class="card-footer">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark btn-md download-button"
+                  >
+                    Sign Up
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section id="cta" style="text-align: center">
+      <div
+        class="container-fluid"
+        style="background-color: rgb(0, 0, 0); padding: 1px"
+      >
+        <h3 class="cta-h3">Find Your Dog Today.</h3>
+        <button
+          type="button"
+          class="btn btn-outline-light btn-dark btn-lg download-button"
+          style="margin: 20px"
+        >
+          <i class="fab fa-apple"></i>
+          Download
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-light btn-lg download-button"
+          style="margin: 20px"
+        >
+          <i class="fab fa-google-play"></i>
+          Download
+        </button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <i class="fab fa-facebook-f" style="margin: 0; color: white"></i>
+      <i class="fab fa-twitter" style="margin: 0; color: white"></i>
+      <i class="fab fa-instagram" style="margin: 0; color: white"></i>
+      <i class="fab fa-apple" style="margin: 0; color: white"></i>
+      <p
+        style="margin: 0; color: rgb(253, 253, 253); background-color: black"
+        ;
+      >
+        © Copyright AdoptMe
+      </p>
+    </footer>
+    <!--JS CDN BOOTSTRAP-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
